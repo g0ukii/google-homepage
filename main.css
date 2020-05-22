@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+  }
+  ul li
+  {
+    font-family: arial, sanserif;
+    color: rgb(95, 99, 104);
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  header 
+  {
+    position: relative;
+    top: 0;
+    text-align: right;
+    margin-right: 20px;
+  }
+  img {
+    display: block;
+    padding-top: 109px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  input[type='text'] {
+   display: block;
+   position: relative;
+   margin: 10px auto;
+   padding: 4px;
+   display: flex;
+   box-shadow: none;
+   border-radius: 24px;
+   height: 44px;
+   width: 582px;
+   border: 1px solid #dfe1e5;
+   
+   
+  
+  }
+  input[type='submit'] {
+    background-image : -webkit-linear-gradient(top, #f5f5f5. #f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin: 11px 4px;
+    border-radius: 4px;
+    text-align: center;
+    height: 36px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #5f6368;
+  }
+  .buttons{
+    text-align: -webkit-center;
+  }
+  
+  footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: small;
+  } 
+  .leftf{
+    float: left;
+  }
+  .rightf{
+    margin-right: 40px;
+    float: right;
+  }
+  .signin {
+    background-color: rgb(66, 133, 244);
+    border-radius: 4px;
+   padding: 5px 10px;
+    color: white;
+  }
+  .icon {
+    color: blue;
+  }
